@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, maximum-scale=1.0" />
+    <title>Услуги</title>
+    <link rel="stylesheet" href="../styles/style.css" />
+  </head>
+
+  <body>
+    <div class="modals"> 
+      <div class="modal" id="modalOrder"> 
+        <div class="modal__quit"> 
+   
+        </div> 
+        <div class="modal__wrapper"> 
+          <!-- содержимое модального окна --> 
+          <h2>Запись на мою услугу</h2> 
+          <div class="left_window"> 
+            <img src="" alt=""> 
+          </div> 
+          <div class="right_window"> 
+            <form action="#"> 
+              <p>Соберем тебя, а ты соберешь все взгляды</p> 
+              <input type="name"> 
+              <input type="tel"> 
+              <select name="services" id="services"> 
+                <option value="makeup">Макияж</option> 
+                <option value="hairstyle">Прическа</option> 
+                <option value="learning">Обучение</option> 
+              </select> 
+              <input type="checkbox" name="personal" id="personal"> 
+              <p>Я согласен на обработку персональных данных</p> 
+              <a href="#" class="btn"></a> 
+            </form> 
+          </div> 
+        </div> 
+      </div> 
+    </div> 
+    <header>
+      <div class="container">
+        <div class="header">
+          <div class="header__content">
+            <a href="../pages/index.html" class="logo"
+              ><img src="../img/logo.svg" alt=""
+            /></a>
+            <div class="header__navbar navbar">
+              <nav>
+                <ul>
+                  <li><a href="../pages/service.html">Услуги</a></li>
+                  <li><a href="../pages/examples.html">Примеры работ</a></li>
+                </ul>
+              </nav>
+              <div class="header_btn theme-btn">
+                <a>Тема</a><a class="moon"><img src="../img/moon.png" alt="" /></a>
+              </div>
+              <div class="header_btn modal_btn" id="modalOrder">
+                <a>Записаться на услугу</a
+                ><a class="login"
+                  ><img src="../img/log-in.png" alt=""
+                /></a>
+              </div>
+            </div>
+            <div class="header__menu menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <section class="services">
+          <h2>Мои услуги</h2>
+          <!-- список для фильтрации -->
+          <nav class="filter_menu">
+            <ul class="filter">
+              <li class="filters__item" id="all">Все услуги</li>
+              <li class="filters__item" id="makeup">Макияж</li>
+              <li class="filters__item" id="hairstyles">Прически</li>
+            </ul>
+          </nav>
+
+          <div class="cards">
+            <div class="card" id="makeup">
+              <div class="top_card">
+                <img src="../img/day.png" alt="" />
+                <h3>Дневной макияж</h3>
+                <p>
+                  Светлые нюдовые оттенки подчеркнут естественную красоту лица,
+                  деликатный акцент на глазах придаст выразительность взгляду, а
+                  легкий румянец и нежный блеск на губах добавят свежести и
+                  женственности. Неутомимая классика, которая подчеркнет ваш
+                  естественный образ и создаст идеальный дневной макияж.
+                </p>
+              </div>
+              <div class="bottom_card">
+                <p class="cena">1900 руб</p>
+                <a href="#" class="btn">Записаться</a>
+              </div>
+            </div>
+
+            <div class="card" id="makeup">
+              <div class="top_card">
+                <img src="../img/evening.png" alt="" />
+                <h3>Вечерний макияж</h3>
+                <p>
+                    Вечерний макияж создаст женственность и загадочность, подчеркнет красоту глаз и придаст коже сияние. Нежные переходы теней, подчеркнутые контурные линии и идеальный подбор оттенков помады создадут неповторимый образ, который завораживает и притягивает взгляды.
+                </p>
+              </div>
+              <div class="bottom_card">
+                <p class="cena">1900 руб</p>
+                <a href="#" class="btn">Записаться</a>
+              </div>
+            </div>
+
+            <div class="card" id="makeup">
+              <div class="top_card">
+                <img src="../img/wedding.png" alt="" />
+                <h3>Свадебный макияж</h3>
+                <p>
+                    Нежный и элегантный свадебный макияж, подчеркнет вашу естественную красоту и придаваст загадочный блеск вашему взгляду. Вы будете сиять на этот особенный день!
+                </p>
+              </div>
+              <div class="bottom_card">
+                <p class="cena">1900 руб</p>
+                <a href="#" class="btn">Записаться</a>
+              </div>
+            </div>
+
+            <div class="card" id="hairstyles">
+              <div class="top_card">
+                <img src="../img/rakushka.png" alt="" />
+                <h3>Прическа “Ракушка”</h3>
+                <p>
+                    Элегантная прическа с высоко поднятыми волосами создает образ стильной и утонченной женщины. Выразительная укладка подчеркивает изящные черты лица и придает образу изысканность и шарм.
+                </p>
+              </div>
+              <div class="bottom_card">
+                <p class="cena">2000 руб</p>
+                <a href="#" class="btn">Записаться</a>
+              </div>
+            </div>
+
+            <div class="card" id="makeup">
+              <div class="top_card">
+                <img src="../img/bright.png" alt="" />
+                <h3>Яркий макияж</h3>
+                <p> Создайте невероятно яркий и летний образ с помощью нашего макияжа! Яркие цвета, игривые акценты и безупречное сияние - всё это поможет вам выделиться и выглядеть превосходно в любой ситуации!
+                </p>
+              </div>
+              <div class="bottom_card">
+                <p class="cena">2000 руб</p>
+                <a href="#" class="btn">Записаться</a>
+              </div>
+            </div>
+
+            <div class="card" id="hairstyles">
+              <div class="top_card">
+                <img src="../img/locons.png" alt="" />
+                <h3>Локоны</h3>
+                <p>
+                    Локоны, как пышные волны океана, ласкают лицо и придают женственность вашему образу. Они играют своими оттенками и фактурой, создавая изысканный и элегантный вид. Доверьтесь мне, и я смогу создать для вас неповторимый и завораживающий образ с помощью локонов.
+                </p>
+              </div>
+              <div class="bottom_card">
+                <p class="cena">1500 руб</p>
+                <a href="#" class="btn">Записаться</a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>    
+        <div class="container">
+          <div class="footer">
+            <a href="../pages/index.html" class="logo"
+              ><img src="../img/logo.svg" alt=""
+            /></a>
+            <div class="socials">
+              <a
+                href="https://www.instagram.com/alfiya_islamovna/"
+                target="_blank"
+                ><img src="../img/inst.png" alt=""
+              /></a>
+              <a
+                href="https://api.whatsapp.com/send?phone=79872848546&fbclid=PAZXh0bgNhZW0CMTEAAaYsD-xAX0jmp2YAcIuDxIobyVnoX87yey9EWVi1qgl8iuZBG0iNNLbfV88_aem_AR4WL-bqiGZIS0zTCPWAjyzN5HqX61fijM-1FQBTErs5lKHnnU90CygTD_q8qUN5H9lmLRHGU7-9nDLCLau4Bptn."
+                target="_blank"
+                ><img src="../img/whatsapp.png" alt="" /></a
+              ><a href="https://vk.com/id350205840" target="_blank"
+                ><img src="../img/icons8-vk 1.png" alt=""
+              /></a>
+            </div>
+            <p>Политика конфиденциальности</p>
+          </div>
+        </div>
+      </footer>
+    <script src="../main.js"></script>
+  </body>
+</html>
